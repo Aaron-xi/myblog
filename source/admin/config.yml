@@ -2,7 +2,6 @@ backend:
   name: github
   repo: Aaron-xi/myblog # 例如: zhangsan/my-blog
   branch: main # 或者是 master
-  client_id: Ov23liJRALvzuskBMhKP
   base_url: https://api.github.com
   auth_endpoint: https://github.com/login/oauth/authorize
 
