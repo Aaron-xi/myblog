@@ -4,6 +4,12 @@ date: 2026-03-07T23:17:00.000Z
 tags:
   - 技术分享
 ---
+{% youtube giU3RIxMMyE %}
+
+
+
+
+
 <!-- wp:pagelayer/pl-post-props {"post_title":"RSS本地阅读器：本地部署+AI翻译+AI智能摘要 | RSS Hub搭建指南 Windows/Mac/Linux通用，隐私100%保护","post_status":"draft","post_date":"2026-03-05 07:22:42","post_author":"1","featured_image":"https://jfklx.x10.mx/wp/wp-content/plugins/pagelayer/images/default-image.png","pagelayer-id":"8ot6153","tmpAtts":{"featured_image-url":"https://jfklx.x10.mx/wp/wp-content/plugins/pagelayer/images/default-image.png","featured_image-no-image-set":1}} /-->
 
 <!-- wp:pagelayer/pl-row {"pagelayer-id":"88s2816"} -->
