@@ -3,7 +3,7 @@ backend:
   repo: Aaron-xi/myblog
   branch: main
   base_url: https://myblog-auth.jfkliuxi0303.workers.dev # 填入你的 Worker 地址
-  auth_endpoint: /myblog-auth # 对应 Worker 里的路径
+  auth_endpoint: /auth # 对应 Worker 里的路径
 
 media_folder: "source/images"
 public_folder: "/images"
