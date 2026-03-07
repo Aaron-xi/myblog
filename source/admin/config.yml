@@ -1,19 +1,18 @@
 backend:
   name: github
-  repo: Aaron-xi/myblog
-  branch: main
+  repo: 你的用户名/仓库名 # 例如: zhangsan/my-blog
+  branch: main # 或者是 master
 
-media_folder: "source/images"
-public_folder: "/images"
+media_folder: source/images # 图片存储路径
+public_folder: /images
 
 collections:
-  - name: "posts"
+  - name: "blog"
     label: "文章"
-    folder: "source/_posts"
+    folder: "source/_posts" # 你的文章存放路径
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "标题", name: "title", widget: "string"}
-      - {label: "发布日期", name: "date", widget: "datetime"}
-      - {label: "标签", name: "tags", widget: "list"}
-      - {label: "正文", name: "body", widget: "markdown"}
+      - { label: "标题", name: "title", widget: "string" }
+      - { label: "发布日期", name: "date", widget: "datetime" }
+      - { label: "正文", name: "body", widget: "markdown" }
