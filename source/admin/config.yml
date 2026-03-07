@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: 你的用户名/仓库名 # 例如: zhangsan/my-blog
+  repo: Aaron-xi/myblog # 例如: zhangsan/my-blog
   branch: main # 或者是 master
 
 media_folder: source/images # 图片存储路径
