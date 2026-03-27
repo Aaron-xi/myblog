@@ -13,4 +13,4 @@ github项目地址：[点击直达](https://github.com/502797091/pdfcraft)
 
 cloudflare创建pages，选择github账号，仓库，构建设置：Next.js(Statlc HTML Export)，部署。
 
-详见科技共享大佬的博客：[点击直达](https://kjgx668.blogspot.com/2026/03/cloudflare-pdfpdfadobe-acrobat.html)[](https://github.com/502797091/pdfcraft)
+详见**科技共享**大佬的博客：[点击直达](https://kjgx668.blogspot.com/2026/03/cloudflare-pdfpdfadobe-acrobat.html)[](https://github.com/502797091/pdfcraft)
