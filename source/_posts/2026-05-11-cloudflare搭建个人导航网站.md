@@ -5,9 +5,11 @@ published: true
 tags:
   - 技术分享
 ---
-`<iframe width="560" height="315" src="https://www.youtube.com/embed/BYIOKbpaalw?si=1D9j63CDxEF6XVaA&amp;start=758" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+``
 
 感谢爱分享的marco大佬分享<https://www.youtube.com/watch?v=BYIOKbpaalw>
+
+[](https://www.youtube.com/watch?v=BYIOKbpaalw)
 
 通过cloudflare免费搭建一个自己的导航页面
 
