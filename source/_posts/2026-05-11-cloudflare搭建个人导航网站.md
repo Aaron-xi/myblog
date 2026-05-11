@@ -5,15 +5,11 @@ published: true
 tags:
   - 技术分享
 ---
-``
+`<iframe width="560" height="315" src="https://www.youtube.com/embed/BYIOKbpaalw?si=1D9j63CDxEF6XVaA&amp;start=758" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
 
-`<iframe width="560" height="315" src="https://www.youtube.com/embed/BYIOKbpaalw?si=kQa5Ja4_w_Jsxiit" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
-
-感谢爱分享的marco大佬分享
+感谢爱分享的marco大佬分享<https://www.youtube.com/watch?v=BYIOKbpaalw>
 
 通过cloudflare免费搭建一个自己的导航页面
-
-
 
 首先我们通过浏览器打开github上的这个开源项目https://github.com/shiteThings/Cloudflare-Navihive
 
@@ -43,11 +39,7 @@ AUTH_SECRET：JWT 密钥（使用随机字符串）
 
 部署完成后，您将获得一个类似https://your-project-name.username.workers.dev的网址，这就是您的导航站地址。
 
-
-
 初始化项目数据库
-
-
 
 登录您的 Cloudflare 控制台
 
@@ -60,8 +52,6 @@ AUTH_SECRET：JWT 密钥（使用随机字符串）
 点击数据库名称以进入数据库管理界面：
 
 数据库管理界面
-
-
 
 在数据库管理界面，点击"控制台"选项卡进入SQL编辑器
 
@@ -82,8 +72,6 @@ CREATE TABLE IF NOT EXISTS groups (
 \    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 
 );
-
-
 
 \-- 创建站点表
 
@@ -113,8 +101,6 @@ CREATE TABLE IF NOT EXISTS sites (
 
 );
 
-
-
 \-- 创建配置表
 
 CREATE TABLE IF NOT EXISTS configs (
@@ -129,8 +115,6 @@ CREATE TABLE IF NOT EXISTS configs (
 
 );
 
-
-
 \-- 设置初始化标志
 
 INSERT INTO configs (key, value) VALUES ('DB_INITIALIZED', 'true');
@@ -138,8 +122,6 @@ INSERT INTO configs (key, value) VALUES ('DB_INITIALIZED', 'true');
 点击"运行"按钮执行SQL命令：
 
 SQL编辑器界面
-
-
 
 如果SQL命令执行成功，您将看到"查询成功"的提示信息
 
